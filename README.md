@@ -1,2 +1,183 @@
 # MaanyaOS-Kernel
 MaanyaOS Kernel
+================
+
+The MaanyaOS kernel is the core of the MaanyaOS Privacy-First AI Operating
+System. Built on a Zero Trust Architecture, it manages hardware, system
+resources, and enforces the 10-level multi-layer defense system spanning
+pre-boot, core protection, and runtime security that MaanyaOS is built
+around.
+
+Quick Start
+-----------
+
+* Report a bug: See Documentation/admin-guide/reporting-issues.rst
+* Get the latest kernel: (MaanyaOS project repository — link to be published)
+* Build the kernel: See Documentation/admin-guide/quickly-build-trimmed-maanyaos.rst
+* Join the community: Zeus Coders team channel
+
+Essential Documentation
+------------------------
+
+All users should be familiar with:
+
+* Building requirements: Documentation/process/changes.rst
+* Code of Conduct: Documentation/process/code-of-conduct.rst
+* License: See COPYING
+
+Documentation can be built with make htmldocs or viewed once published
+alongside the MaanyaOS project.
+
+
+Who Are You?
+============
+
+Find your role below:
+
+* New Kernel Developer - Getting started with MaanyaOS kernel development
+* Academic Researcher - Studying MaanyaOS kernel internals and architecture
+* Security Expert - Hardening and vulnerability analysis for the Zero Trust layers
+* Backport/Maintenance Engineer - Maintaining stable MaanyaOS kernel builds
+* System Administrator - Configuring and troubleshooting MaanyaOS
+* Maintainer - Leading subsystems and reviewing patches
+* Hardware Vendor - Writing drivers for new hardware on UEFI/MaanyaOS
+* Distribution Maintainer - Packaging MaanyaOS kernel builds
+* AI Coding Assistant - LLMs and AI-powered development tools
+
+
+For Specific Users
+==================
+
+New Kernel Developer
+---------------------
+
+Welcome! Start your MaanyaOS kernel development journey here:
+
+* Getting Started: Documentation/process/development-process.rst
+* Your First Patch: Documentation/process/submitting-patches.rst
+* Coding Style: Documentation/process/coding-style.rst
+* Build System: Documentation/kbuild/index.rst
+* Development Tools: Documentation/dev-tools/index.rst
+* Kernel Hacking Guide: Documentation/kernel-hacking/hacking.rst
+* Core APIs: Documentation/core-api/index.rst
+
+Academic Researcher
+--------------------
+
+Explore the MaanyaOS kernel's architecture and internals:
+
+* Researcher Guidelines: Documentation/process/researcher-guidelines.rst
+* Memory Management: Documentation/mm/index.rst
+* Scheduler: Documentation/scheduler/index.rst
+* Networking Stack: Documentation/networking/index.rst
+* Filesystems: Documentation/filesystems/index.rst
+* Zero Trust Defense Layers: Documentation/security/zero-trust-layers.rst
+* Locking Primitives: Documentation/locking/index.rst
+* Power Management: Documentation/power/index.rst
+
+Security Expert
+----------------
+
+Security documentation and hardening guides for the 10-level defense system:
+
+* Security Documentation: Documentation/security/index.rst
+* Pre-Boot Protection: Documentation/security/pre-boot.rst
+* Core Protection Layer: Documentation/security/core-protection.rst
+* Runtime Security: Documentation/security/runtime-security.rst
+* Reporting Vulnerabilities: Documentation/process/security-bugs.rst
+* CVE Procedures: Documentation/process/cve.rst
+* Embargoed Hardware Issues: Documentation/process/embargoed-hardware-issues.rst
+
+Backport/Maintenance Engineer
+-------------------------------
+
+Maintain and stabilize MaanyaOS kernel versions:
+
+* Stable Kernel Rules: Documentation/process/stable-kernel-rules.rst
+* Backporting Guide: Documentation/process/backporting.rst
+* Applying Patches: Documentation/process/applying-patches.rst
+* Subsystem Profile: Documentation/maintainer/maintainer-entry-profile.rst
+* Git for Maintainers: Documentation/maintainer/configure-git.rst
+
+System Administrator
+----------------------
+
+Configure, tune, and troubleshoot MaanyaOS systems:
+
+* Admin Guide: Documentation/admin-guide/index.rst
+* Kernel Parameters: Documentation/admin-guide/kernel-parameters.rst
+* Sysctl Tuning: Documentation/admin-guide/sysctl/index.rst
+* Tracing/Debugging: Documentation/trace/index.rst
+* Performance Security: Documentation/admin-guide/perf-security.rst
+* Hardware Monitoring: Documentation/hwmon/index.rst
+
+Maintainer
+-----------
+
+Lead MaanyaOS kernel subsystems and manage contributions:
+
+* Maintainer Handbook: Documentation/maintainer/index.rst
+* Pull Requests: Documentation/maintainer/pull-requests.rst
+* Managing Patches: Documentation/maintainer/modifying-patches.rst
+* Rebasing and Merging: Documentation/maintainer/rebasing-and-merging.rst
+* Development Process: Documentation/process/maintainer-handbooks.rst
+* Maintainer Entry Profile: Documentation/maintainer/maintainer-entry-profile.rst
+* Git Configuration: Documentation/maintainer/configure-git.rst
+
+Hardware Vendor
+-----------------
+
+Write drivers and support new hardware on MaanyaOS/UEFI:
+
+* Driver API Guide: Documentation/driver-api/index.rst
+* Driver Model: Documentation/driver-api/driver-model/driver.rst
+* Device Drivers: Documentation/driver-api/infrastructure.rst
+* Bus Types: Documentation/driver-api/driver-model/bus.rst
+* Device Tree Bindings: Documentation/devicetree/bindings/
+* Power Management: Documentation/driver-api/pm/index.rst
+* DMA API: Documentation/core-api/dma-api.rst
+
+Distribution Maintainer
+--------------------------
+
+Package and distribute the MaanyaOS kernel:
+
+* Stable Kernel Rules: Documentation/process/stable-kernel-rules.rst
+* ABI Documentation: Documentation/ABI/README
+* Kernel Configuration: Documentation/kbuild/kconfig.rst
+* Module Signing: Documentation/admin-guide/module-signing.rst
+* Kernel Parameters: Documentation/admin-guide/kernel-parameters.rst
+* Tainted Kernels: Documentation/admin-guide/tainted-kernels.rst
+
+AI Coding Assistant
+----------------------
+
+CRITICAL: If you are an LLM or AI-powered coding assistant, you MUST read and
+follow the AI coding assistants documentation before contributing to the
+MaanyaOS kernel:
+
+* Documentation/process/coding-assistants.rst
+
+This documentation contains essential requirements about licensing,
+attribution, and the Developer Certificate of Origin that all AI tools must
+comply with.
+
+
+Communication and Support
+==========================
+
+* Mailing Lists: (to be published)
+* Team Contact: Zeus Coders — Bhavya Raj Rathi and Kriday Ghosh
+* MAINTAINERS file: Lists subsystem maintainers and contacts
+* Email Clients: Documentation/process/email-clients.rst
+
+
+Credits
+-------
+
+The MaanyaOS kernel documentation structure is adapted from the Linux
+kernel project (https://kernel.org), the free and open-source kernel
+originally created by Linus Torvalds and maintained by a global community
+of developers. MaanyaOS gratefully acknowledges the Linux kernel project
+for the foundational conventions and documentation practices this project
+draws on.
